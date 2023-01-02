@@ -1,0 +1,40 @@
+@import 'color';
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: $primary1;
+    background-repeat: no-repeat;
+    >main{
+        background-color: $colordefault;
+        border-radius: 0rem 30rem 30rem 0rem;
+        >h1{
+            padding: 1rem;
+            width:70%;
+            display: flex;
+            justify-content: flex-end;
+            color: $colordefault1;
+            letter-spacing: 1px;
+        }
+        >div{
+            width:90%;
+            display: flex;
+            justify-content: flex-end;
+            color: $colordefault1;
+            img{
+            height:30rem;
+            width:35%;
+            display: flex;
+            justify-content: flex-start;
+            }
+            p{
+             color: $colordefault1;
+             display: flex;
+             align-items: center;
+             letter-spacing: 1px;
+             word-spacing: 5px;
+             line-height: 170%;
+             font:italic 100 1.2rem $text1
+            }
+        }
+    }
+}

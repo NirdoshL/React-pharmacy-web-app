@@ -1,0 +1,38 @@
+@import 'color';
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: $primary1;
+    background-repeat: no-repeat;
+    >article{
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: $first;
+        border-radius: 30rem 0rem 30rem 0rem;
+        >div{
+            height: 10rem;
+            width: 10rem;
+            display: flex;
+            margin: 1rem;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: $colordefault;
+            &:hover{
+            filter: invert(1);
+            }
+            >svg{
+                font-size: 4rem;
+            }
+            >p{
+               font-size: 1rem; 
+            }
+        }
+    }
+
+}

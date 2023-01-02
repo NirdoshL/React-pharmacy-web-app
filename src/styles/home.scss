@@ -1,0 +1,28 @@
+@import 'color';
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: $primary1;
+    background-image: url('../assests/dt.svg');
+    background-size: contain;
+    background-repeat:no-repeat;
+    >main{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding: 2rem;
+      justify-content: center;
+      >h1{
+        font: 400 4rem $text1;
+        color: $colordefault;
+      }
+      >p{
+        font: italic 900 1rem $text1;
+        color: $colordefault;
+      }
+
+    }
+   
+}
