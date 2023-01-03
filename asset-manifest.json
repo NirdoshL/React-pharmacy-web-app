@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-pharmacy-web-app/static/css/main.3e7d086c.css",
+    "main.js": "/React-pharmacy-web-app/static/js/main.a9efdddc.js",
+    "static/media/t.svg": "/React-pharmacy-web-app/static/media/t.676d20faf1b4b94d6441ed16f2dabe0e.svg",
+    "static/media/404.svg": "/React-pharmacy-web-app/static/media/404.bdf1c60c297dc6528f56fe6a382dacdf.svg",
+    "static/media/dt.svg": "/React-pharmacy-web-app/static/media/dt.16576d9e2a51223218d9.svg",
+    "index.html": "/React-pharmacy-web-app/index.html",
+    "main.3e7d086c.css.map": "/React-pharmacy-web-app/static/css/main.3e7d086c.css.map",
+    "main.a9efdddc.js.map": "/React-pharmacy-web-app/static/js/main.a9efdddc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e7d086c.css",
+    "static/js/main.a9efdddc.js"
+  ]
+}
