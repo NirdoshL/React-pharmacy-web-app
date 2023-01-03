@@ -8,9 +8,8 @@ export const Home = () => {
     <Fragment>
     <div className='home' id='home'>
         <main>
-       <h1>Nirdosh Pharmacy</h1>
-       <p>Balkot, Bagmati</p>
-       <p>Bhaktapur-44800</p>
+       <h1>Nirdosh <br/> Pharmacy</h1>
+       <p>Balkot, Bagmati<br/>Bhaktapur-44800</p>
        </main>
     </div>
     <About/>

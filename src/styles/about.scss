@@ -5,6 +5,8 @@
     background-color: $primary1;
     background-repeat: no-repeat;
     >main{
+        height:85%;
+        width: 100%;
         background-color: $colordefault;
         border-radius: 0rem 30rem 30rem 0rem;
         >h1{
@@ -21,7 +23,7 @@
             justify-content: flex-end;
             color: $colordefault1;
             img{
-            height:30rem;
+            height:20rem;
             width:35%;
             display: flex;
             justify-content: flex-start;
@@ -33,7 +35,7 @@
              letter-spacing: 1px;
              word-spacing: 5px;
              line-height: 170%;
-             font:italic 100 1.2rem $text1
+             font:italic 100 1.2rem $text1;
             }
         }
     }

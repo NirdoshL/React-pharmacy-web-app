@@ -12,6 +12,8 @@ import './styles/home.scss'
 import './styles/about.scss'
 import './styles/contact.scss'
 import './styles/404.scss'
+import './styles/media.scss'
+
 
 
 

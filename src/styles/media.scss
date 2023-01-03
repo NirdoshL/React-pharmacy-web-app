@@ -1,0 +1,123 @@
+@import 'color';
+
+
+@media screen and (max-width:920px){
+
+    .home{
+      height: 100vh;
+      >main>h1{
+        font: 400 2rem $text1;;
+        padding-top:60%;
+      }
+      >main>p{
+        padding-top:2%;
+      }
+      >main>div>img{
+        height: 50rem;
+       }
+    }
+
+
+    .about>main{
+    height: 95%;
+    border-radius: 0rem 20rem 20rem 0rem;
+    >h1{
+     font: 400 2rem $colordefault1;
+    }
+    >div{
+        >p{
+            font:italic 100 .8rem $text1;
+        }
+    }
+
+    
+}
+  
+  }
+  @media screen and (max-width:800px) {
+   .heading>nav{
+   >main{
+    width:82%;
+   }
+}
+    .home>main>h1{
+        padding-top:70%;
+    }
+
+
+    .about>main{
+    height: 100%;
+    border-radius: 0rem;
+    >div{
+        height: 100%;
+        width:100%;
+        display: inline-block;
+        >img{
+            height: 30%;
+            width:100%;
+        }    
+    }
+}
+
+
+    .contact{
+       >article{
+        flex-direction: column;
+        border-radius: 0rem;
+        >div{
+           
+          height: 6.5rem;
+          width: 6.5rem;
+          margin: 1.5rem;
+          >svg{
+            font:2rem;
+          }
+          >p{
+            font:.5rem;
+            
+          }
+        }
+    }
+}
+  }
+  @media screen and (max-width:420px) {
+    .heading>nav{
+        >h1{
+            display: none;
+         }
+       >main{
+        justify-content: center;
+       >a{
+       margin: 1rem;
+       }
+    }
+    }
+}
+
+  @media screen and (max-width:320px) {
+  
+    .home{
+        height: 100vh;
+        >main>h1{
+            font: 400 2rem $text1;
+        }
+        >main>p{
+            font: italic 500 1rem $text1;
+        }
+      }
+
+      .about>main{
+        >h1{
+            font: 400 1.5rem $text1;
+        }
+        >div{
+            >img{
+                height: 20%;
+            }
+            >p{
+                font:italic 100 .7rem $text1
+            }      
+        }
+    }
+
+  }
